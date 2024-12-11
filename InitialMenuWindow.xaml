@@ -1,0 +1,35 @@
+﻿<Window x:Class="SOSGameUI.InitialMenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SOS Game - Menu" Height="450" Width="350">
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="250">
+        <TextBlock Text="Enter Board Size" Margin="10"/>
+        <TextBox x:Name="BoardSizeTextBox" Width="100" Margin="10"/>
+
+        <TextBlock Text="Select Game Mode" Margin="10"/>
+        <ComboBox x:Name="GameModeComboBox" Width="100" Margin="10">
+            <ComboBoxItem Content="Simple" />
+            <ComboBoxItem Content="General" />
+        </ComboBox>
+
+        <TextBlock Text="Red Player Type" Margin="10"/>
+        <ComboBox x:Name="RedPlayerTypeComboBox" Width="100" Margin="10">
+            <ComboBoxItem Content="Human" IsSelected="True"/>
+            <ComboBoxItem Content="Computer"/>
+        </ComboBox>
+
+        <TextBlock Text="Blue Player Type" Margin="10"/>
+        <ComboBox x:Name="BluePlayerTypeComboBox" Width="100" Margin="10">
+            <ComboBoxItem Content="Human" IsSelected="True"/>
+            <ComboBoxItem Content="Computer"/>
+        </ComboBox>
+
+        <TextBlock Text="Computer Strategy" Margin="10"/>
+        <ComboBox x:Name="ComputerStrategyComboBox" Width="100" Margin="10">
+            <ComboBoxItem Content="Random" IsSelected="True"/>
+            <ComboBoxItem Content="Smart"/>
+        </ComboBox>
+
+        <Button Content="Play Game" Click="PlayGame_Click" Margin="10" Width="100"/>
+    </StackPanel>
+</Window>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35325.158
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOSGame", "SOSGame.csproj", "{4ADC7114-3E88-468C-896B-58E63D63D72B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOSGame.Test", "..\SOSGame.Test\SOSGame.Test.csproj", "{CDE90359-1EF6-46EE-8A6A-EB3209276D1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4ADC7114-3E88-468C-896B-58E63D63D72B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ADC7114-3E88-468C-896B-58E63D63D72B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ADC7114-3E88-468C-896B-58E63D63D72B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ADC7114-3E88-468C-896B-58E63D63D72B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDE90359-1EF6-46EE-8A6A-EB3209276D1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDE90359-1EF6-46EE-8A6A-EB3209276D1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDE90359-1EF6-46EE-8A6A-EB3209276D1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDE90359-1EF6-46EE-8A6A-EB3209276D1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB750937-6A83-4FAE-BC70-DB213FC28991}
+	EndGlobalSection
+EndGlobal
